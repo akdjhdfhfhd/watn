@@ -77,7 +77,7 @@ async def play(_, message: Message):
             get = await app.get_chat_member(message.chat.id, ASS_ID)
         except ChatAdminRequired:
             return await fallen.edit_text(
-                f"⎊ آديڼي ڝلآحـيهہ آلآضآڣهہ علشآڼ أضًـيِّف آلمسآعد {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
+                f"⎊ آعطيني ڝلآحـيهہ آلآضآڣهہ لاضافة آلمسآعد {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
             )
         if get.status == ChatMemberStatus.BANNED:
             unban_butt = InlineKeyboardMarkup(
@@ -106,7 +106,7 @@ async def play(_, message: Message):
                 invitelink = await app.export_chat_invite_link(message.chat.id)
             except ChatAdminRequired:
                 return await fallen.edit_text(
-                    f"⎊ آديڼي ڝلآحـيهہ آلآضآڣهہ علڜآڼ أّضًـيِّف آلمسآعد {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
+                    f"⎊ آعطني ڝلآحـيهہ آلآضآڣهہ لاضافة آلمسآعد {BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
                 )
             except Exception as ex:
                 return await fallen.edit_text(
@@ -144,7 +144,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"⎊ معلش يحـب آلاغنيه طوٍيله آوٍي {DURATION_LIMIT} شۼل آۼڼيةّ تآڼيهہ {BOT_NAME}."
+                f"⎊  يحـب آلاغنيه طوٍيله آوٍي {DURATION_LIMIT} شۼل آۼڼيةّ تآڼيهہ {BOT_NAME}."
             )
 
         file_name = get_file_name(audio)
