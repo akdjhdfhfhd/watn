@@ -57,10 +57,10 @@ async def ping_fallen(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=config.أمـَيـَرتــʊ̤ 🕊🤍 .),
                     InlineKeyboardButton(
                         "ѕᴇᴠᴇɴ",
-                        url="https://t.me/EE_20",
+                        url="https://t.me/ah07v",
                     ),
                 ],
             ]
