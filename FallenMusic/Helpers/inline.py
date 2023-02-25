@@ -71,8 +71,8 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text=" ѕᴇᴠᴇɴ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="ɢʀᴏụᴘ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="أمـَيـَرتــʊ̤ 🕊🤍 .", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="أمـَيـَرتــʊ̤ 🕊🤍 .", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
